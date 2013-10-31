@@ -1,3 +1,9 @@
+/*
+  Copyright (C) 2000-2013
+  nizvoo (AT) gmail.com
+*/
+
+
 #ifndef __NET_UTILS_H__
 #define __NET_UTILS_H__
 

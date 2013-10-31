@@ -1,3 +1,8 @@
+/*
+  Copyright (C) 2000-2013
+  nizvoo (AT) gmail.com
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <conio.h>

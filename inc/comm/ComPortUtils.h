@@ -1,3 +1,9 @@
+/*
+  Copyright (C) 2000-2013
+  nizvoo (AT) gmail.com
+*/
+
+
 #ifndef __COM_PORT_UTILS_H__
 #define __COM_PORT_UTILS_H__
 

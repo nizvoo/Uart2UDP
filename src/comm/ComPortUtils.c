@@ -1,3 +1,9 @@
+/*
+  Copyright (C) 2000-2013
+  nizvoo (AT) gmail.com
+*/
+
+
 #include "inc/comm/ComPortUtils.h"
 
 
