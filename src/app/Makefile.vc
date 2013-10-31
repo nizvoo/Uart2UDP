@@ -1,0 +1,22 @@
+#
+# Copyright (C) 2000-2013
+# nizvoo (AT) gmail.com
+#
+CC = cl
+CXX = cl
+RM = del
+CP = copy
+BIN = Uart2UDP.exe
+SRC = udp.c Uart2UDP.c ../comm/ComPortUtils.c ../netutils/netutils.c
+OBJ = udp.obj Uart2UDP.obj ComPortUtils.obj netutils.obj
+CFLAGS = -I../../ -D_UNICODE -DUNICODE /Zc:wchar_t- /O2
+WSLIB = ws2_32.lib
+
+
+$(BIN): $(SRC)
+	$(CC) $(CFLAGS) $(SRC) $(WSLIB) /Fe$(BIN)
+
+PHONY: clean
+clean:
+	-$(RM) $(OBJ)
+	-$(RM) $(BIN)
