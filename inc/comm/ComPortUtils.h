@@ -14,6 +14,9 @@
 #include <windows.h>
 #include <tchar.h>
 
+#ifdef __cplusplus
+extern "C" {
+#endif
 
 HANDLE ConnctComPort(const TCHAR* name, int baudrate);
 
@@ -24,5 +27,8 @@ BOOL WriteRSData(HANDLE h, const BYTE* data, int len);
 int ReadRSData(HANDLE h, BYTE* buf, int len);
 void CloseComPort(HANDLE h);
 
+#ifdef __cplusplus
+}
+#endif
 
 #endif
