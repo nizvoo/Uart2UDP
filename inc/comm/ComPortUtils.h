@@ -11,7 +11,7 @@
 #include <stdio.h>
 
 
-#include <Windows.h>
+#include <windows.h>
 #include <tchar.h>
 
 
