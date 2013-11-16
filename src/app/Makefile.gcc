@@ -2,10 +2,12 @@
 # Copyright (C) 2000-2013
 # nizvoo (AT) gmail.com
 #
-CC = gcc
+CC = $(CROSS)gcc
+LD = $(CROSS)ld
+AR = $(CROSS)ar
 RM = rm
 CP = cp
-BIN = Uart2UDP-GCC.exe
+BIN = Uart2UDP.exe
 SRC = udp.c Uart2UDP.c ../comm/ComPortUtils.c ../netutils/netutils.c
 OBJ = Uart2UDP.o udp.o netutils.o ComPortUtils.o
 CFLAGS = -I../../ -D_UNICODE -DUNICODE

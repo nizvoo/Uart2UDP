@@ -7,7 +7,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include <Winsock2.h> 
+#include <winsock2.h> 
 
 #include "inc/netutils/netutils.h"
 
